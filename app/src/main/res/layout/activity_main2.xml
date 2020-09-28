@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo"
+    tools:context=".MainActivity2">
+
+    <ImageView
+        android:id="@+id/ImgVwPerfil"
+        android:layout_width="206dp"
+        android:layout_height="196dp"
+        android:background="#B9EC6464"
+        app:layout_constraintBottom_toTopOf="@+id/BtnHotel"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.728"
+        app:srcCompat="@drawable/hombre" />
+
+    <TextView
+        android:id="@+id/TxtVwIntro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#B2A8D4E1"
+        android:backgroundTint="#7287D1E8"
+        android:text="Bienvenido"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="#C56626"
+        android:textColorHighlight="#BC1A1A"
+        android:textIsSelectable="false"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toTopOf="@+id/ImgVwPerfil"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.556" />
+
+    <Button
+        android:id="@+id/BtnHotel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#7462B6B4"
+        android:text="Hoteles"
+        android:textAllCaps="false"
+        android:textColor="#007A53"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/BtnHostal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.476"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.867" />
+
+    <Button
+        android:id="@+id/BtnHostal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#7462B6B4"
+        android:text="Hostales"
+        android:textAllCaps="false"
+        android:textColor="#007A53"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.764" />
+
+    <Button
+        android:id="@+id/BtnCerrarSesion"
+        android:layout_width="63dp"
+        android:layout_height="42dp"
+        android:backgroundTint="#BCCEF3"
+        android:text="Cerrar Sesion"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="#007A53"
+        android:textSize="10sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.045"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.976" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo"
+    android:visibility="visible"
+    tools:context=".MainActivity4">
+
+    <TextView
+        android:id="@+id/TxtVwHotelesTitulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#B2A8D4E1"
+        android:backgroundTint="#7287D1E8"
+        android:text="Hoteles En Chillan"
+        android:textAlignment="center"
+        android:textColor="#C56626"
+        android:textColorHighlight="#BC1A1A"
+        android:textIsSelectable="false"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.071" />
+
+    <Button
+        android:id="@+id/BtnHotelesInicio"
+        android:layout_width="63dp"
+        android:layout_height="42dp"
+        android:backgroundTint="#BCCEF3"
+        android:text="Inicio"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="#007A53"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.045"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.976" />
+
+    <Button
+        android:id="@+id/BtnHotel1"
+        android:layout_width="170dp"
+        android:layout_height="116dp"
+        android:autoText="true"
+        android:background="@drawable/hotel"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.112"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.26" />
+
+    <TextView
+        android:id="@+id/TxtVwHotel1"
+        android:layout_width="180dp"
+        android:layout_height="117dp"
+        android:background="#B2A8D4E1"
+        android:backgroundTint="#7287D1E8"
+        android:text="Hotel Sheraton 5 Estrellas"
+        android:textAlignment="gravity"
+        android:textAllCaps="false"
+        android:textColor="#C56626"
+        android:textColorHighlight="#BC1A1A"
+        android:textSize="27sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.529"
+        app:layout_constraintStart_toEndOf="@+id/BtnHotel1"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.26" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
