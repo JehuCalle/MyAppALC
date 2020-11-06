@@ -11,9 +11,7 @@
         android:id="@+id/TxtVwHotel1"
         android:layout_width="183dp"
         android:layout_height="121dp"
-        android:background="#B2A8D4E1"
-        android:backgroundTint="#7287D1E8"
-        android:text="Hotel Sheraton 5 Estrellas"
+        android:text="Hotel Diego de Almagro"
         android:textAlignment="gravity"
         android:textAllCaps="false"
         android:textColor="#C56626"
@@ -98,19 +96,6 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.34" />
 
-    <ImageView
-        android:id="@+id/ImgVwHotel1"
-        android:layout_width="183dp"
-        android:layout_height="121dp"
-        android:scaleType="fitXY"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/TxtVwHotel1"
-        app:layout_constraintHorizontal_bias="0.551"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.098"
-        app:srcCompat="@drawable/hotel" />
-
     <Button
         android:id="@+id/BtnReservarHtel1"
         android:layout_width="172dp"
@@ -144,5 +129,17 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/BtnReservarHtel1"
         app:layout_constraintVertical_bias="0.282" />
+
+    <ImageView
+        android:id="@+id/ImgVwHotel1"
+        android:layout_width="123dp"
+        android:layout_height="196dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.18"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.018"
+        app:srcCompat="@drawable/hoteldiegodealmagro" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

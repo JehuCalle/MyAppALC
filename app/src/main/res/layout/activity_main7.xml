@@ -77,27 +77,11 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.349" />
 
-    <ImageView
-        android:id="@+id/ImgVwHostal1"
-        android:layout_width="183dp"
-        android:layout_height="121dp"
-        android:background="@drawable/hostal"
-        android:scaleType="fitXY"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.07"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.093"
-        app:srcCompat="@drawable/hostal" />
-
     <TextView
         android:id="@+id/TxtVwHostal1"
         android:layout_width="183dp"
         android:layout_height="121dp"
-        android:background="#B2A8D4E1"
-        android:backgroundTint="#7287D1E8"
-        android:text="Hostal Kermol 4 Estrellas"
+        android:text="Hostal Chillan"
         android:textAlignment="gravity"
         android:textAllCaps="false"
         android:textColor="#C56626"
@@ -105,8 +89,6 @@
         android:textSize="27sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.448"
-        app:layout_constraintStart_toEndOf="@+id/ImgVwHostal1"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.093" />
 
@@ -145,5 +127,17 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.977" />
+
+    <ImageView
+        android:id="@+id/ImgVwHostal1"
+        android:layout_width="222dp"
+        android:layout_height="154dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.037"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.055"
+        app:srcCompat="@drawable/hostalchillan" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
