@@ -8,19 +8,19 @@ import android.widget.Button;
 
 public class MainActivity6 extends AppCompatActivity {
 
-    private Button BtnRegresarHoteles,BtnReservarHtel1,BtnLocalizarHtel1,btnCalificarHtel1;
+    private Button BtnRegresarHotel1,BtnReservarHtel1,BtnLocalizarHtel1,btnCalificarHtel1;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main6);
 
-        BtnRegresarHoteles = (Button) findViewById(R.id.BtnRegresarHoteles);
+        BtnRegresarHotel1 = (Button) findViewById(R.id.BtnRegresarHotel1);
         BtnReservarHtel1 = (Button) findViewById(R.id.BtnReservarHtel1);
         BtnLocalizarHtel1 = (Button) findViewById(R.id.BtnLocalizarHtel1);
         btnCalificarHtel1 = (Button) findViewById(R.id.btnCalificarHtel1);
 
-        BtnRegresarHoteles.setOnClickListener(new View.OnClickListener() {
+        BtnRegresarHotel1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 //CODIGO BOTON INICIO HOTELES
@@ -42,7 +42,7 @@ public class MainActivity6 extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 //CODIGO BOTON LOCALIZAR
-                Intent Intent17 = new Intent(MainActivity6.this,MainActivity10.class);
+                Intent Intent17 = new Intent(MainActivity6.this,MainMapaHotel1.class);
                 startActivity(Intent17);
             }
         });
@@ -50,7 +50,7 @@ public class MainActivity6 extends AppCompatActivity {
         btnCalificarHtel1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                //CODIGO BOTON LOCALIZAR
+                //CODIGO BOTON CALIFICAR
                 Intent Intent18 = new Intent(MainActivity6.this,MainActivity11.class);
                 startActivity(Intent18);
             }

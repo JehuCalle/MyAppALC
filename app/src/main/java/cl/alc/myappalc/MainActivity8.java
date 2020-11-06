@@ -21,7 +21,7 @@ public class MainActivity8 extends AppCompatActivity {
         BtnHtel1Piso5.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                //CODIGO BOTON PISO 1
+                //CODIGO BOTON PISO 5
                 Intent Intent13 = new Intent(MainActivity8.this,MainActivity9.class);
                 startActivity(Intent13);
             }

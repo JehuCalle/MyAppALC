@@ -46,7 +46,6 @@
         android:id="@+id/TxtHostal1"
         android:layout_width="180dp"
         android:layout_height="117dp"
-        android:layout_marginEnd="16dp"
         android:text="Hostal Chillan"
         android:textAlignment="gravity"
         android:textAllCaps="false"
@@ -55,8 +54,10 @@
         android:textSize="27sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.935"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.281" />
+        app:layout_constraintVertical_bias="0.28" />
 
     <TextView
         android:id="@+id/textView4"

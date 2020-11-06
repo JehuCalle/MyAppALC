@@ -25,7 +25,7 @@
         app:layout_constraintVertical_bias="0.098" />
 
     <Button
-        android:id="@+id/BtnRegresarHoteles"
+        android:id="@+id/BtnRegresarHotel1"
         android:layout_width="85dp"
         android:layout_height="34dp"
         android:backgroundTint="#BCCEF3"
@@ -81,8 +81,6 @@
         android:id="@+id/TxtVwHotel1Horario2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="#B2A8D4E1"
-        android:backgroundTint="#7287D1E8"
         android:text="Sabado - Domingo 10AM-9PM"
         android:textAlignment="center"
         android:textAllCaps="false"
@@ -127,8 +125,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/BtnReservarHtel1"
-        app:layout_constraintVertical_bias="0.282" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.76" />
 
     <ImageView
         android:id="@+id/ImgVwHotel1"

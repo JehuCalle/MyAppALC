@@ -7,7 +7,7 @@ import android.view.View;
 import android.widget.Button;
 
 public class MainActivity4 extends AppCompatActivity {
-    private Button BtnHotelesInicio,BtnHotel1;
+    private Button BtnHotelesInicio,BtnHotel1,BtnHotel2;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -16,6 +16,7 @@ public class MainActivity4 extends AppCompatActivity {
 
         BtnHotelesInicio = (Button) findViewById(R.id.BtnHotelesInicio);
         BtnHotel1 = (Button) findViewById(R.id.BtnHotel1);
+        BtnHotel2 = (Button) findViewById(R.id.BtnHotel2);
 
         BtnHotelesInicio.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -32,6 +33,14 @@ public class MainActivity4 extends AppCompatActivity {
                 //CODIGO BOTON PRIMER HOTEL
                 Intent Intent10 = new Intent(MainActivity4.this,MainActivity6.class);
                 startActivity(Intent10);
+            }
+        });
+        BtnHotel2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                //CODIGO BOTON PRIMER HOTEL
+                Intent Intent20 = new Intent(MainActivity4.this,MainActivity10.class);
+                startActivity(Intent20);
             }
         });
     }
