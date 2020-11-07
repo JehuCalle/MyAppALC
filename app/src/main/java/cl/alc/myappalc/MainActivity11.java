@@ -21,7 +21,7 @@ public class MainActivity11 extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 //CODIGO BOTON REGRESAR
-                Intent Intent18 = new Intent(MainActivity11.this,MainActivity10.class);
+                Intent Intent18 = new Intent(MainActivity11.this,MainActivity6.class);
                 startActivity(Intent18);
             }
         });

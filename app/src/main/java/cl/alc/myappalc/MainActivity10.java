@@ -51,7 +51,7 @@ public class MainActivity10 extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 //CODIGO BOTON CALIFICAR
-                Intent Intent18 = new Intent(MainActivity10.this,MainActivity11.class);
+                Intent Intent18 = new Intent(MainActivity10.this,MainActivity14.class);
                 startActivity(Intent18);
             }
         });
