@@ -42,22 +42,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.976" />
 
-    <TextView
-        android:id="@+id/TxtHostal1"
-        android:layout_width="180dp"
-        android:layout_height="117dp"
-        android:text="Hostal Chillan"
-        android:textAlignment="gravity"
-        android:textAllCaps="false"
-        android:textColor="#C56626"
-        android:textColorHighlight="#BC1A1A"
-        android:textSize="27sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.935"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.28" />
+
 
     <TextView
         android:id="@+id/textView4"
@@ -72,44 +57,89 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.149" />
 
-    <Button
-        android:id="@+id/BtnHostal1"
-        android:layout_width="202dp"
-        android:layout_height="146dp"
-        android:background="@drawable/hostalchillan"
+    <ScrollView
+        android:layout_width="406dp"
+        android:layout_height="510dp"
+        android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.023"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.259" />
+        app:layout_constraintVertical_bias="0.631">
 
-    <Button
-        android:id="@+id/BtnHostal2"
-        android:layout_width="199dp"
-        android:layout_height="152dp"
-        android:background="@drawable/hostalohiggins"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.056"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.597" />
+        <LinearLayout
+            android:layout_width="406dp"
+            android:layout_height="510dp"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
 
-    <TextView
-        android:id="@+id/TxtHostal2"
-        android:layout_width="175dp"
-        android:layout_height="103dp"
-        android:text="Hostal O'higgins"
-        android:textAlignment="gravity"
-        android:textAllCaps="false"
-        android:textColor="#C56626"
-        android:textColorHighlight="#BC1A1A"
-        android:textSize="27sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.911"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.55" />
+                <Button
+                    android:id="@+id/BtnHostal1"
+                    android:layout_width="202dp"
+                    android:layout_height="146dp"
+                    android:background="@drawable/hostalchillan"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.023"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.259" />
+
+                <TextView
+                    android:id="@+id/TxtHostal1"
+                    android:layout_width="180dp"
+                    android:layout_height="117dp"
+                    android:text="Hostal Chillan"
+                    android:textAlignment="gravity"
+                    android:textAllCaps="false"
+                    android:textColor="#C56626"
+                    android:textColorHighlight="#BC1A1A"
+                    android:textSize="27sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.935"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.28" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:id="@+id/BtnHostal2"
+                    android:layout_width="202dp"
+                    android:layout_height="152dp"
+                    android:background="@drawable/hostalohiggins"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.056"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.597" />
+
+                <TextView
+                    android:id="@+id/TxtHostal2"
+                    android:layout_width="175dp"
+                    android:layout_height="103dp"
+                    android:text="Hostal O'higgins"
+                    android:textAlignment="gravity"
+                    android:textAllCaps="false"
+                    android:textColor="#C56626"
+                    android:textColorHighlight="#BC1A1A"
+                    android:textSize="27sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.911"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.55" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>

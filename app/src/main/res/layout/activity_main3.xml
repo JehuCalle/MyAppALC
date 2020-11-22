@@ -8,17 +8,48 @@
     android:textAlignment="center"
     tools:context=".MainActivity3">
 
+    <Button
+        android:id="@+id/BtnAceptarUs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#7462B6B4"
+        android:text="Aceptar"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="#007A53"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.886" />
+
+    <EditText
+        android:id="@+id/TxtEdCorreoUs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#530101"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Email"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.647" />
+
     <ImageView
         android:id="@+id/ImgVwPerfilNew"
         android:layout_width="138dp"
         android:layout_height="162dp"
         android:background="#B9EC6464"
-        app:layout_constraintBottom_toTopOf="@+id/TxtEdNombreNew"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.482"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.824"
+        app:layout_constraintVertical_bias="0.166"
         app:srcCompat="@drawable/hombre" />
 
     <TextView
@@ -33,100 +64,53 @@
         android:textColorHighlight="#BC1A1A"
         android:textIsSelectable="false"
         android:textSize="36sp"
-        app:layout_constraintBottom_toTopOf="@+id/ImgVwPerfilNew"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.042" />
 
     <EditText
-        android:id="@+id/TxtEdNombreNew"
+        android:id="@+id/TxtEdNombreUs"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:backgroundTint="#097801"
         android:ems="10"
         android:inputType="textPersonName"
         android:text="Nombre"
-        app:layout_constraintBottom_toTopOf="@+id/TxtEdApellidoNew"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.482"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.941" />
+        app:layout_constraintVertical_bias="0.43" />
 
     <EditText
-        android:id="@+id/TxtEdApellidoNew"
+        android:id="@+id/TxtEdApellidoUs"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:backgroundTint="#097801"
         android:ems="10"
         android:inputType="textPersonName"
         android:text="Apellido"
-        app:layout_constraintBottom_toTopOf="@+id/TxtEdCorreoNew"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.482"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.874" />
+        app:layout_constraintVertical_bias="0.535" />
 
     <EditText
-        android:id="@+id/TxtEdCorreoNew"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:backgroundTint="#097801"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="Correo"
-        app:layout_constraintBottom_toTopOf="@+id/TxtEdContraseñaNew1"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.482"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.968" />
-
-    <EditText
-        android:id="@+id/TxtEdContraseñaNew2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:backgroundTint="#097801"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="Confirmar Contraseña"
-        app:layout_constraintBottom_toTopOf="@+id/BtnAceptarNew"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.482"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.916" />
-
-    <EditText
-        android:id="@+id/TxtEdContraseñaNew1"
+        android:id="@+id/TxtEdContraseñaUs"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:backgroundTint="#097801"
         android:ems="10"
         android:inputType="textPersonName"
         android:text="Contraseña"
-        app:layout_constraintBottom_toTopOf="@+id/TxtEdContraseñaNew2"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.482"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.974" />
-
-    <Button
-        android:id="@+id/BtnAceptarNew"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:backgroundTint="#7462B6B4"
-        android:text="Aceptar"
-        android:textAlignment="center"
-        android:textAllCaps="false"
-        android:textColor="#007A53"
-        android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.945" />
+        app:layout_constraintVertical_bias="0.76" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

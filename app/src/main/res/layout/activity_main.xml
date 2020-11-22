@@ -20,12 +20,12 @@
         android:textColorHighlight="#BC1A1A"
         android:textIsSelectable="false"
         android:textSize="36sp"
-        app:layout_constraintBottom_toTopOf="@+id/TxtEdCorreo"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.516"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.28" />
+        app:layout_constraintVertical_bias="0.087" />
 
     <EditText
         android:id="@+id/TxtEdCorreo"
@@ -35,12 +35,12 @@
         android:ems="10"
         android:inputType="textPersonName"
         android:text="Email"
-        app:layout_constraintBottom_toTopOf="@+id/TxtEdContraseña"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintHorizontal_bias="0.494"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.825" />
+        app:layout_constraintVertical_bias="0.417" />
 
     <Button
         android:id="@+id/BtnIniciar"
@@ -49,12 +49,12 @@
         android:backgroundTint="#7462B6B4"
         android:text="Iniciar Sesion"
         android:textSize="18sp"
-        app:layout_constraintBottom_toTopOf="@+id/BtnCrearCuenta"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.501"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.979" />
+        app:layout_constraintVertical_bias="0.749" />
 
     <Button
         android:id="@+id/BtnCrearCuenta"
@@ -78,11 +78,11 @@
         android:ems="10"
         android:inputType="textPersonName"
         android:text="Contraseña"
-        app:layout_constraintBottom_toTopOf="@+id/BtnIniciar"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintHorizontal_bias="0.494"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.831" />
+        app:layout_constraintVertical_bias="0.527" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
