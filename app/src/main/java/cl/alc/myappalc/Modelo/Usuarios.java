@@ -14,8 +14,8 @@ public class Usuarios {
         CorreoUsuario = "";
         ContraseñaUsuario = "";
     }
-
-    public Usuarios(String idUsuario, String nombreUsuario, String apellidoUsuario, String correoUsuario, String contraseñaUsuario) {
+    public Usuarios(String idUsuario, String nombreUsuario, String apellidoUsuario,
+                    String correoUsuario, String contraseñaUsuario) {
         IdUsuario = idUsuario;
         NombreUsuario = nombreUsuario;
         ApellidoUsuario = apellidoUsuario;
