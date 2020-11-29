@@ -38,7 +38,7 @@ public class MainActivity4 extends AppCompatActivity {
         BtnHotel2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                //CODIGO BOTON PRIMER HOTEL
+                //CODIGO BOTON SEGUNDO HOTEL
                 Intent Intent20 = new Intent(MainActivity4.this,MainActivity10.class);
                 startActivity(Intent20);
             }

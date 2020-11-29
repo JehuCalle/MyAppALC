@@ -7,6 +7,115 @@
     android:background="@drawable/fondo"
     tools:context=".MainActivity21">
 
+    <EditText
+        android:id="@+id/TxtEdNombre"
+        android:layout_width="299dp"
+        android:layout_height="49dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.969"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.248" />
+
+    <EditText
+        android:id="@+id/TxtEdCorreo"
+        android:layout_width="299dp"
+        android:layout_height="52dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.974"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.33" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="202dp"
+        android:layout_height="36dp"
+        android:background="#B2A8D4E1"
+        android:backgroundTint="#7287D1E8"
+        android:text="Comentario"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="#C56626"
+        android:textColorHighlight="#BC1A1A"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.459"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.441" />
+
+    <EditText
+        android:id="@+id/TxtEdComentario"
+        android:layout_width="394dp"
+        android:layout_height="223dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.47"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.675" />
+
+    <Button
+        android:id="@+id/BtnEnviarComen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#BCCEF3"
+        android:text="Enviar"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="#007A53"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.881" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="91dp"
+        android:layout_height="40dp"
+        android:text="Nombre:"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="#C56626"
+        android:textColorHighlight="#BC1A1A"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.05"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.257" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="91dp"
+        android:layout_height="40dp"
+        android:text="Correo:"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="#C56626"
+        android:textColorHighlight="#BC1A1A"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.056"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.341" />
+
     <Button
         android:id="@+id/btnRegresarComenHtal2"
         android:layout_width="85dp"
@@ -30,7 +139,7 @@
         android:layout_height="66dp"
         android:background="#B2A8D4E1"
         android:backgroundTint="#7287D1E8"
-        android:text="Deje su comentario Abajo"
+        android:text="Rellene para comentar"
         android:textAlignment="center"
         android:textAllCaps="false"
         android:textColor="#C56626"

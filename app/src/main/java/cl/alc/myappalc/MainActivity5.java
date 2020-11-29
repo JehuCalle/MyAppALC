@@ -39,7 +39,7 @@ public class MainActivity5 extends AppCompatActivity {
         BtnHostal2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                //CODIGO BOTON PRIMER HOSTAL
+                //CODIGO BOTON SEGUNDO HOSTAL
                 Intent Intent30 = new Intent(MainActivity5.this,MainActivity18.class);
                 startActivity(Intent30);
             }
